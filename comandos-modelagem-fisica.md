@@ -26,3 +26,5 @@ CREATE TABLE produtos(
 ALTER TABLE produtos
     ADD CONSTRAINT fk_produtos_fabricantes
     FOREIGN KEY(fabricantes_id) REFERENCES fabricantes(id);
+
+<!-- fk = FOREIGN KEY -->
